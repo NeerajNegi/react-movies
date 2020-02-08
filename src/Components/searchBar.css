@@ -1,19 +1,24 @@
 .searchbar {
     width: 400px;
-    color: #5A5B64;
+    border-radius: 10px;
+}
+
+.search-form {
+    width: 100%;
+    height: 40px;
     display: grid;
     grid-template-columns: 90% 10%;
-    border-radius: 10px;
-    height: 40px;
 }
 
 .search-input {
     background: #242529;
+    color: #5A5B64;
     display: inline-block;
     padding-left: 12px;
     border: transparent;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    outline: none;
 }
 
 .search-button {
