@@ -2,9 +2,9 @@ import React from 'react';
 import { Nav, NavItem, NavLink } from "shards-react";
 import './navbar.css';
 
-import SearchBar from './SearchBar';
+import SearchBar from '../Search-Bar/SearchBar';
 
-export default function NavExample() {
+export default function NavExample(props) {
   return (
     <Nav className="navbar">
       <NavItem>
@@ -13,7 +13,7 @@ export default function NavExample() {
         </NavLink>
       </NavItem>
       <NavItem>
-        <SearchBar/>
+        <SearchBar handleMovieSearch={props.handleMovieSearch}/>
       </NavItem>
     </Nav>
   );

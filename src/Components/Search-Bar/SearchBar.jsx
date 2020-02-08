@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './searchBar.css'
 
-export default function SearchBar() {
+export default function SearchBar(props) {
 
     const [searchTerm, setSearchTerm] = useState('');
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        console.log(searchTerm);
+        props.handleMovieSearch(searchTerm);
     }
 
     return (
