@@ -1,0 +1,26 @@
+.searchbar {
+    width: 400px;
+    color: #5A5B64;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.search-input {
+    background: #242529;
+    display: inline-block;
+    padding-left: 12px;
+    border: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-button {
+    display: inline-block;
+    background: #242529;
+    border: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #5A5B64;
+}
